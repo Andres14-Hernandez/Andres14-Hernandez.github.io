@@ -1,0 +1,148 @@
+/* CABECERA */
+.cabecera{
+    border: solid 3px red;
+    display: flex;
+    align-items: center;
+    background-color: #575757;
+}
+
+.cabecera__titulo{
+    font-size: 24px;
+    padding-left: 5%;
+}
+
+.navegacion{
+    display: flex;
+    margin-left: auto;
+    margin-right: 5%;
+    border: solid 3px green;
+}
+
+.navegacion__lista{  
+    list-style: none;
+    display: flex;
+    width: 100%;
+    justify-content: flex-end;
+    border: solid 3px aqua;
+    align-items: center;
+}
+
+.navegacion__elemento{
+    padding: 0% 5%;
+    border: solid 3px red;
+}
+
+.navegacion__elemento a{
+    text-decoration: none;
+    color: white;    
+}
+
+/* MAIN */
+.cuerpo{
+    border: solid 3px red;
+}
+
+/* SOBRE MI */
+.cuerpo__descripcion{
+    display: flex;
+    border: solid 3px red;
+
+}
+
+.cuerpo__descripcion__foto{
+    width: 10%;
+    height: 10%;
+    margin-left: 20%;
+}
+
+.cuerpo__descripcion__contenedor{
+    margin-left: auto;
+    margin-right: 5%;
+    border: solid 3px aqua;
+    max-width: 50%;
+
+}
+
+/* EXPERIENCIA */
+.cuerpo__experiencia{
+    display: flex;
+    flex-direction: column;
+    border: solid 3px red;
+    gap: 5%;
+}
+
+.experiencia__titulo{
+    text-align: center;
+}
+
+.experiencia__galeria{
+    display: flex;
+    flex-direction: column;
+    gap: 2%;
+    justify-content: center;
+}
+
+.experiencia__contenedor{
+    border: solid 3px aqua;
+}
+
+
+/* HABILIDADES */
+.cuerpo__habilidades{
+    border: solid 3px red;
+}
+
+.habilidades__titulo{
+    text-align: center;
+}
+
+.habilidades__galeria{
+    display: flex;
+    gap: 2%;
+    justify-content: center;
+}
+
+.habilidades__contenedor{
+    border: solid 3px aqua;
+}
+
+
+/* FORMACION */
+.cuerpo__formacion{
+    border: solid 3px red;
+}
+
+.formacion__titulo{
+    text-align: center;
+}
+
+.formacion__galeria{
+    display: flex;
+    gap: 2%;
+    justify-content: center;
+}
+
+.formacion__contenedor{
+    border: solid 3px aqua;
+}
+
+/* SOBRE MI */
+.cuerpo__sobreMi{
+    display: flex;
+    border: solid 3px red;
+
+}
+
+.cuerpo__sobreMi__foto{
+    width: 10%;
+    height: 10%;
+    margin-left: 20%;
+}
+
+.cuerpo__sobreMi__contenedor{
+    margin-left: auto;
+    margin-right: 5%;
+    border: solid 3px aqua;
+    max-width: 50%;
+
+}
