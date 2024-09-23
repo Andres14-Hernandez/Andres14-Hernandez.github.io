@@ -7,13 +7,14 @@
 }
 
 .cabecera__logo{
-    padding: 20px;
+    padding: 10px;
     padding-left: 50px;
 }
 
 .cabecera__titulo{
-    font-size: 24px;
-    padding-left: 5%;
+    padding-left: 3%;
+    font-size: 40px;
+    color: #25efc7;
 }
 
 .navegacion{
@@ -39,8 +40,8 @@
 
 .navegacion__elemento a{
     text-decoration: none;
-    
 }
+
 
 /* MAIN */
 .cuerpo{
@@ -66,8 +67,16 @@
     border: solid 3px aqua;
     max-width: 50%;
     padding: 3%;
-
 }
+
+.cuerpo__descripcion__contenedor h1{
+    font-size: 34px;
+}
+
+.cuerpo__descripcion__contenedor p{
+    text-align: justify;
+}
+
 
 /* EXPERIENCIA */
 .cuerpo__experiencia{

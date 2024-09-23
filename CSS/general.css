@@ -1,9 +1,29 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
-    background-color: #222D43;
-    color: white;
+    background-color: #191D2D;
+    color: #E3E7EF;
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    font-family: Inconsolata ;
+    font-size: 24px;
 }
+
+
+.inconsolata__text {
+    font-family: "Inconsolata", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 24px;
+    font-style: normal;
+    font-variation-settings:
+      "wdth" 100;
+  }
+  
+
+  .oswald-text {
+    font-family: "Oswald", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 24px;
+    font-style: normal;
+  }
