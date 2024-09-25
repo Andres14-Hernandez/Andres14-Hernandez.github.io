@@ -1,9 +1,14 @@
 /* CABECERA */
 .cabecera{
-    border: solid 3px red;
+    background-color: rgb(37, 43, 67);
+    /* border: solid 3px red; */
+    border-bottom:solid 3px rgb(150, 118, 238);
     display: flex;
     align-items: center;
     padding: 10px 0;
+    position: fixed;
+    width: 100%;
+    top: 0px;
 }
 
 .cabecera__logo{
@@ -18,23 +23,25 @@
 }
 
 .navegacion{
-    border: solid 3px green;
+    /* border: solid 3px green; */
     display: flex;
     margin-left: auto;
     margin-right: 5%;
 }
 
 .navegacion__lista{  
+    /* border: solid 3px aqua; */
+    border-right: solid 3px #E3E7EF;
     list-style: none;
     display: flex;
     width: 100%;
     justify-content: flex-end;
-    border: solid 3px aqua;
     align-items: center;
 }
 
 .navegacion__elemento{
-    border: solid 3px red;
+    /* border: solid 3px red; */
+    border-left: solid 3px #E3E7EF;
     padding: 10px;
 }
 
@@ -46,12 +53,12 @@
 
 /* MAIN */
 .cuerpo{
-    border: solid 3px red;
+    margin-top: 100px;
 }
 
 /* DESCRIPCION */
 .cuerpo__descripcion{
-    border: solid 3px red;
+    /* border: solid 3px red; */
     display: flex;
     align-items: center;
     padding: 2.5% ;
@@ -61,14 +68,17 @@
 .cuerpo__descripcion__foto{
     width: 25%;
     height: 25%;
-    margin-left: 10%;
+    margin-left: 5%;
+    margin-right: 5%;
 }
 
 .cuerpo__descripcion__contenedor{
+    border: solid 3px rgb(150, 118, 238);
+    border-radius: 10px;
+    background-color: rgb(37, 43, 67);
     margin-left: auto;
     margin-right: 5%;
-    border: solid 3px aqua;
-    max-width: 50%;
+    max-width: 70%;
     padding: 3%;
     height: 100%;
 }
@@ -77,31 +87,40 @@
     align-items: center;
 }
 
-.cuerpo__descripcion__contenedor h1{
+.cuerpo__descripcion__contenedor div{
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.cuerpo__descripcion__contenedor div h1{
     color: #25efc7;
+    font-size: 34px;
+    margin-left: 3%;
 }
 
 .descripcion__gif{
-    width: 350px;
-}
-
-.cuerpo__descripcion__contenedor h1{
-    font-size: 34px;
+    width: 325px;
 }
 
 .cuerpo__descripcion__contenedor p{
     text-align: justify;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
-.redes{
-    border: solid 3px red;
+.descripcion__redes{
     display: flex;
     justify-content: center;
     list-style: none;
 }
 
-.redes li{
-    padding: 3%;
+.descripcion__redes li{
+    padding: 3%;    
+}
+
+.descripcion__redes li img{
+    width: 50px;
 }
 
 
@@ -117,6 +136,7 @@
 .experiencia__titulo{
     text-align: center;
     padding: 3%;
+    padding-bottom: 0;
     font-size: 34px;
 }
 
@@ -126,19 +146,25 @@
 }
 
 .experiencia__contenedor{
+    border: solid 3px rgb(150, 118, 238);
+    border-radius: 10px;
+    background-color: rgb(37, 43, 67);
     display: flex;
     flex-direction: row;
-    border: solid 3px aqua;
     padding: 3%;
     margin: 2%;
 }
 
 .experiencia__contenedor__img{
     border: solid 3px red;
+    width: 40%;
 }
 
 .experiencia__contenedor__descripcion{
     border: solid 3px red;
+    margin-left: auto;
+    max-width: 50%;
+    padding: 1.5%;
     
 }
 
@@ -161,7 +187,9 @@
 }
 
 .habilidades__contenedor{
-    border: solid 3px aqua;
+    border: solid 3px rgb(150, 118, 238);
+    border-radius: 10px;
+    background-color: rgb(37, 43, 67);
     padding: 3%;
 }
 
@@ -184,7 +212,9 @@
 }
 
 .formacion__contenedor{
-    border: solid 3px aqua;
+    border: solid 3px rgb(150, 118, 238);
+    border-radius: 10px;
+    background-color: rgb(37, 43, 67);
     padding: 10% 20%;
 
 }
@@ -198,7 +228,9 @@
 }
 
 .cuerpo__sobreMi__contenedor{
-    border: solid 3px aqua;
+    border: solid 3px rgb(150, 118, 238);
+    border-radius: 10px;
+    background-color: rgb(37, 43, 67);
     max-width: 50%;
     padding: 3%;
 }

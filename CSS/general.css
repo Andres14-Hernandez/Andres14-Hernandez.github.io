@@ -1,7 +1,9 @@
+
+/* ESTILOS GENERALES */
 *{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
-    background-color: #191D2D;
+    background-color: transparent;
     color: #E3E7EF;
     box-sizing: border-box;
     padding: 0;
@@ -10,7 +12,11 @@
     font-size: 24px;
 }
 
+body{
+  background-color: #191D2D;
+}
 
+/* FUENTES TIPOGRAFICAS */
 .inconsolata__text {
     font-family: "Inconsolata", system-ui;
     font-optical-sizing: auto;
@@ -18,8 +24,7 @@
     font-style: normal;
     font-variation-settings:
       "wdth" 100;
-  }
-  
+  }  
 
   .oswald-text {
     font-family: "Oswald", sans-serif;
