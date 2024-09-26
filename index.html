@@ -16,11 +16,11 @@
 
     <!-- HEADER -->
     <header class="cabecera">
-        <img class="cabecera__logo" src="assets/logo.png" alt="Logo">
+        <a href="#cuerpo"> <img class="cabecera__logo" src="assets/logo.png" alt="Logo"> </a>        
         <h1 class="cabecera__titulo">Andrés Hernández</h1>
         <nav class="navegacion">
             <ul class="navegacion__lista">
-                <li class="navegacion__elemento"><a href="#proyectos">Proyectos</a></li>
+                <li class="navegacion__elemento"><a href="#experiencia">Experiencia</a></li>
                 <li class="navegacion__elemento"><a href="#formacion">Formación</a></li>
                 <li class="navegacion__elemento"><a href="#sobre-mi">Sobre mí</a></li>
                 <li class="navegacion__elemento"><a href="#contacto">Contacto</a></li>
@@ -29,7 +29,7 @@
     </header>
 
     <!-- MAIN -->
-    <main class="cuerpo">
+    <main class="cuerpo" id="cuerpo">
         <!-- DESCRIPCION -->
         <section class="cuerpo__descripcion">
             <img class="cuerpo__descripcion__foto" src="assets/andres_hernandez.png" alt="Foto Andres">
@@ -51,41 +51,69 @@
         </section>
 
         <!-- EXPERIENCIA -->
-        <section class="cuerpo__experiencia">
-            <h1 class="experiencia__titulo">Experiencia</h1>
+        <section class="cuerpo__experiencia" id="experiencia">
+            <h1 class="titulo">Experiencia</h1>
             <div class="experiencia__galeria">
                 <div class="experiencia__contenedor">
                     <div class="experiencia__contenedor__img">
-                        <img src="" alt="Imagen Recorrido Virtual">
+                        <img src="assets/img/cajica-360.png" alt="Imagen Recorrido Virtual">
                     </div>
-                    <div class="experiencia__contenedor__descripcion">
-                        <h1>HOLA MUNDO Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic sit nisi ducimus repudiandae minima ipsam autem, corporis quaerat illum eum unde quis temporibus exercitationem necessitatibus enim nihil itaque omnis repellat.</h1>
+                        <div class="experiencia__contenedor__descripcion">
+                            <h1>Cajica 360</h1>
+                            <br>
+                            <p>
+                                Recorrido virtual del municipio de Cajicá (Cundinamarca), 
+                                donde los interesados pueden conocer mas acerca de los prestadores de 
+                                servicio turístico aliados del Instituto de Cultura y Turismo.
+                            </p>
+                            <div class="experiencia__contenedor__botones">
+                                <a target="_blank" href="https://360.turismocajica.gov.co/" target="_blank">Visitar</a>
+                            </div>
+                        </div>                    
                     </div>
-                </div>
-
+                
                 <div class="experiencia__contenedor">
                     <div class="experiencia__contenedor__img">
-                        <img src="" alt="Imagen Recorrido Virtual">
+                        <img src="assets/img/cajica-360.png" alt="Imagen Recorrido Virtual">
                     </div>
                     <div class="experiencia__contenedor__descripcion">
-                        <h1>HOLA MUNDO</h1>
+                        <h1>Cajica 360</h1>
+                        <br>
+                        <p>
+                            Recorrido virtual del municipio de Cajicá (Cundinamarca), 
+                            donde los interesados pueden conocer mas acerca de los prestadores de 
+                            servicio turístico aliados del Instituto de Cultura y Turismo.
+                        </p>
+                        <div class="experiencia__contenedor__botones">
+                            <a target="_blank" href="https://360.turismocajica.gov.co/" target="_blank">Visitar</a>
+                        </div>
                     </div>
                 </div>
-
-                <div class="experiencia__contenedor">
+            
+                <!-- <div class="experiencia__contenedor">
                     <div class="experiencia__contenedor__img">
-                        <img src="" alt="Imagen Recorrido Virtual">
+                        <img src="assets/img/cajica-360.png" alt="Imagen Recorrido Virtual">
                     </div>
                     <div class="experiencia__contenedor__descripcion">
-                        <h1>HOLA MUNDO</h1>
+                        <h1>Cajica 360</h1>
+                        <br>
+                        <p>
+                            Recorrido virtual del municipio de Cajicá (Cundinamarca), 
+                            donde los interesados pueden conocer mas acerca de los prestadores de 
+                            servicio turístico aliados del Instituto de Cultura y Turismo.
+                        </p>
+                        <div class="experiencia__contenedor__botones">
+                            <a target="_blank" href="https://360.turismocajica.gov.co/" target="_blank">Visitar</a>
+                        </div>
                     </div>
-                </div>                
+                </div> -->
+
             </div>            
         </section>
 
         <!-- HABILIDADES -->
         <section class="cuerpo__habilidades">
-            <h1 class="habilidades__titulo">Habilidades</h1>
+            <h1 class="titulo">Habilidades</h1>
             <div class="habilidades__galeria">
                 <div class="habilidades__contenedor">
                     <h1>HTML</h1>
@@ -97,12 +125,16 @@
                 <div class="habilidades__contenedor">
                     <h1>JavaScript</h1>
                 </div>
+
+                <div class="habilidades__contenedor">
+                    <h1>React</h1>
+                </div>
             </div>
         </section>
 
         <!-- FORMACION -->
-        <section class="cuerpo__formacion">
-            <h1 class="formacion__titulo">Formacion</h1>
+        <section class="cuerpo__formacion" id="formacion">
+            <h1 class="titulo">Formacion</h1>
             <div class="formacion__galeria">
                 <div class="formacion__contenedor">
                     <h1>UMNG</h1>
@@ -114,18 +146,30 @@
         </section>
 
         <!-- SOBRE MI -->
-        <section class="cuerpo__sobreMi">
+        <section class="cuerpo__sobreMi" id="sobre-mi">
+            <h1 class="titulo">Sobre Mí</h1>
             <div class="cuerpo__sobreMi__contenedor">
-                <h1>Andrés Felipe Hernández López</h1>
-                <p>Ingeniero en multimedia Lorem ipsum dolor sit amet consectetur adipisicing elit. A cupiditate doloribus eius quam totam, odit blanditiis quaerat quos repellat fugit odio rem nisi id earum quisquam illo magnam aperiam eaque.</p>
+                <p>
+                    soy un Ingeniero Multimedia con entusiasmo por el desarrollo front-end y UX/UI, 
+                    con sólidos conocimientos en diseño gráfico que me permiten integrar 
+                    elementos multimedia de alta calidad en mis proyectos. Me destaco por 
+                    mi capacidad de aprendizaje continuo, adaptación a nuevas tecnologías 
+                    y metodologías, y por contribuir de manera efectiva en cada proyecto, 
+                    siempre buscando mejorar mis habilidades y entregar soluciones innovadoras.
+                </p>
             </div>
         </section>
 
-        <footer>
-            <h1>Mis Redes</h1>
-        </footer>
+        <section class="contacto" id="contacto">
+            <h1>hola</h1>
+        </section>
 
+        <footer class="pie_pagina">
+            <h1>hola mundo</h1>
+        </footer>
     </main>
         
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="js/script.js"></script>
     </body>
 </html>

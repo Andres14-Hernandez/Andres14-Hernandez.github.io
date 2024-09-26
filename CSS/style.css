@@ -53,7 +53,15 @@
 
 /* MAIN */
 .cuerpo{
-    margin-top: 100px;
+    margin-top: 200px;
+}
+
+/* TITULOS */
+.titulo{
+    text-align: center;
+    font-size: 34px;
+    padding: 3%;
+    padding-bottom: 0;
 }
 
 /* DESCRIPCION */
@@ -126,18 +134,11 @@
 
 /* EXPERIENCIA */
 .cuerpo__experiencia{
-    border: solid 3px red;
+    /* border: solid 3px red; */
     display: flex;
     flex-direction: column;
     gap: 5%;
     padding: 2.5%;
-}
-
-.experiencia__titulo{
-    text-align: center;
-    padding: 3%;
-    padding-bottom: 0;
-    font-size: 34px;
 }
 
 .experiencia__galeria{
@@ -156,41 +157,65 @@
 }
 
 .experiencia__contenedor__img{
-    border: solid 3px red;
-    width: 40%;
+    /* border: solid 3px red; */
+    width: 47%;
+}
+
+.experiencia__contenedor__img img{
+    width: 100%;
+    border-radius: 10px;
 }
 
 .experiencia__contenedor__descripcion{
-    border: solid 3px red;
+    /* border: solid 3px red; */
     margin-left: auto;
     max-width: 50%;
-    padding: 1.5%;
-    
+    padding: 1.5%;    
+}
+
+.experiencia__contenedor__botones{
+    /* border: solid 3px red; */
+    display: flex;
+    margin-top: 10%;
+    justify-content: center;
+}
+
+.experiencia__contenedor__botones a{
+    border: solid 3px rgb(150, 118, 238);
+    border-radius: 15px;
+    padding: 2%;
+    text-decoration: none;
+    transition: .5s;
+}
+
+.experiencia__contenedor__botones a:hover{
+    background-color: rgb(64, 74, 116) ;
+    transform: scale(1.2);
+    transition: .5s;
 }
 
 
 /* HABILIDADES */
 .cuerpo__habilidades{
-    border: solid 3px red;
-    padding: 50px 10%;
-}
-
-.habilidades__titulo{
-    text-align: center;
-    padding: 3%;
+    /* border: solid 3px red; */
+    padding: 2.5%;
 }
 
 .habilidades__galeria{
     display: flex;
-    gap: 2%;
     justify-content: center;
+    gap: 2%;
+    margin: 2%;
 }
 
 .habilidades__contenedor{
+    background-color: rgb(37, 43, 67);
     border: solid 3px rgb(150, 118, 238);
     border-radius: 10px;
-    background-color: rgb(37, 43, 67);
+    display: flex;
+    justify-content: center;
     padding: 3%;
+    width: 15%;
 }
 
 
@@ -200,15 +225,11 @@
     padding: 50px 10%;
 }
 
-.formacion__titulo{
-    text-align: center;
-    padding: 3%;
-}
-
 .formacion__galeria{
     display: flex;
-    gap: 2%;
     justify-content: center;
+    gap: 2%;
+    margin: 2%;
 }
 
 .formacion__contenedor{
@@ -223,21 +244,24 @@
 .cuerpo__sobreMi{
     border: solid 3px red;
     display: flex;
+    flex-direction: column;
+    align-items: center;
     padding: 50px 10%;
-    justify-content: center;
 }
 
 .cuerpo__sobreMi__contenedor{
     border: solid 3px rgb(150, 118, 238);
     border-radius: 10px;
     background-color: rgb(37, 43, 67);
-    max-width: 50%;
+    display: flex;
+    text-align: justify;
+    max-width: 90%;
     padding: 3%;
+    margin: 2%;
 }
 
-
-
 /* FOOTER */
-footer{
+.pie_pagina{
     border: solid 3px red;
+    height: 800px;
 }
