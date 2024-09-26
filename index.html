@@ -72,24 +72,6 @@
                         </div>                    
                     </div>
                 
-                <div class="experiencia__contenedor">
-                    <div class="experiencia__contenedor__img">
-                        <img src="assets/img/cajica-360.png" alt="Imagen Recorrido Virtual">
-                    </div>
-                    <div class="experiencia__contenedor__descripcion">
-                        <h1>Cajica 360</h1>
-                        <br>
-                        <p>
-                            Recorrido virtual del municipio de Cajicá (Cundinamarca), 
-                            donde los interesados pueden conocer mas acerca de los prestadores de 
-                            servicio turístico aliados del Instituto de Cultura y Turismo.
-                        </p>
-                        <div class="experiencia__contenedor__botones">
-                            <a target="_blank" href="https://360.turismocajica.gov.co/" target="_blank">Visitar</a>
-                        </div>
-                    </div>
-                </div>
-            
                 <!-- <div class="experiencia__contenedor">
                     <div class="experiencia__contenedor__img">
                         <img src="assets/img/cajica-360.png" alt="Imagen Recorrido Virtual">
@@ -161,12 +143,23 @@
         </section>
 
         <section class="contacto" id="contacto">
-            <h1>hola</h1>
-        </section>
+            <h1 class="titulo">Contacto</h1>
+            <!-- <fieldset> -->
+            <form class="formulario" action="" autocomplete="off" method="post">
 
-        <footer class="pie_pagina">
-            <h1>hola mundo</h1>
-        </footer>
+                <label for="formulario-nombre">Nombre:</label>
+                <input type="text" id="formulario-nombre" required="true"> <br>
+
+                <label for="email">Correo Electronico: </label>           
+                <input type="email" id="email" name="email" required="true"> <br>
+
+                <label for="comentario">Esunto:</label>
+                <textarea name="comentario" id="comentario" cols="50" rows="5"></textarea> <br>
+
+                <input type="submit" value="Enviar" id="envio-formulario">
+            </form>
+            <!-- </fieldset> -->
+        </section>
     </main>
         
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>

@@ -1,6 +1,6 @@
 /* CABECERA */
 .cabecera{
-    background-color: rgb(37, 43, 67);
+    background-color: #252b43;
     /* border: solid 3px red; */
     border-bottom:solid 3px rgb(150, 118, 238);
     display: flex;
@@ -83,7 +83,7 @@
 .cuerpo__descripcion__contenedor{
     border: solid 3px rgb(150, 118, 238);
     border-radius: 10px;
-    background-color: rgb(37, 43, 67);
+    background-color: #252b43;
     margin-left: auto;
     margin-right: 5%;
     max-width: 70%;
@@ -221,7 +221,7 @@
 
 /* FORMACION */
 .cuerpo__formacion{
-    border: solid 3px red;
+    /* border: solid 3px red; */
     padding: 50px 10%;
 }
 
@@ -242,7 +242,7 @@
 
 /* SOBRE MI */
 .cuerpo__sobreMi{
-    border: solid 3px red;
+    /* border: solid 3px red; */
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -260,8 +260,47 @@
     margin: 2%;
 }
 
-/* FOOTER */
-.pie_pagina{
-    border: solid 3px red;
-    height: 800px;
+/* CONTACTO */
+
+.contacto{
+    /* border:  solid 3px red; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 5%;
+}
+
+.formulario{
+    border: solid 3px rgb(150, 118, 238);
+    border-radius: 10px;
+    background-color: rgb(37, 43, 67);
+    flex-direction: column;
+    display: flex;
+    padding: 3%;
+    margin: 2%;
+}
+
+.formulario input, textarea{
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(59, 69, 108);
+    padding: 10px;
+    transition: .5s;
+    margin: 1%;
+}
+
+.formulario input:focus{
+    outline: none;
+    background-color: #1ba98d;
+    transition: .5s;
+}
+
+.formulario textarea:focus{
+    outline: none;
+    background-color: #1ba98d;
+    transition: .5s;
+}
+
+#envio-formulario:hover{
+    background-color: #1ba98d;
 }
