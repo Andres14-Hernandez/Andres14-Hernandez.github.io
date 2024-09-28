@@ -10,6 +10,7 @@
     margin: 0;
     font-family: Inconsolata ;
     font-size: 24px;
+    z-index: 0;
 }
 
 body{
