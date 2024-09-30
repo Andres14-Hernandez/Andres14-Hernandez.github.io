@@ -1,0 +1,192 @@
+@media screen and (max-width: 1200px){
+    /* HEADER */
+    .navegacion{
+        display: none;
+    }
+
+    .cabecera__titulo{
+        margin-left: auto;
+        margin-right: 5%;
+    }
+
+    /* MAIN */
+
+    /* DESCRIPCION */
+    .cuerpo__descripcion__contenedor{
+        display: flex;
+        flex-direction: column;
+    }
+    .descripcion__gif{
+        display: none;
+    }
+
+
+    /* HABILIDADES */
+    .habilidades__contenedor__img{
+        width: 100px;
+        height: auto;
+    }
+
+
+    /* FORMACION */
+    .formacion__galeria{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .formacion__contenedor{
+        width: 80%;
+        margin: 2%;
+
+    }
+    
+}
+
+
+@media screen and (max-width: 900px){
+    /* MAIN */
+    .cuerpo{
+        margin-top: 120px;
+    }
+   
+    /* DESCRIPCION */
+    .cuerpo__descripcion{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cuerpo__descripcion__foto{
+        width: 40%;
+    }
+
+    .cuerpo__descripcion__contenedor{
+        margin: 5%;
+    }
+
+    /* EXPERIENCIA */
+    .experiencia__contenedor{
+        flex-direction: column;
+    }
+
+    .experiencia__contenedor__img{
+        width: 80%;
+    }
+
+    .experiencia__contenedor__descripcion{
+        margin: 5%;
+        max-width: 80%;
+    }
+
+    /* HABILIDADES */
+    .habilidades__galeria{
+        display: grid;
+        grid-template-columns: 1fr 1fr; 
+        gap: 10px; 
+        justify-items: center;
+        align-items: center;  
+    }
+    
+    .habilidades__contenedor{
+        padding: 3%;
+    }
+
+    .habilidades__contenedor__img{
+        width: 150px;
+        height: auto;
+    }
+
+    /* SOBRE MI */
+    .sobreMi__contenedor__hobbies{
+        display: grid;
+        grid-template-columns: 1fr 1fr; 
+        gap: 10px; 
+        justify-items: center;
+        align-items: center;
+    }
+
+    /* CONTACTO */
+    .formulario{
+        width: 90%;
+    }
+}
+
+
+@media screen and (max-width: 600px){
+    /* GENERAL */
+    *{
+        font-size: 22px;
+    }
+
+    .titulo{
+        font-size: 26px;
+    }
+
+    /* HEADER */
+    .cabecera h1{
+        display: none;
+    }
+
+    .cabecera {
+        justify-content: center;
+    }    
+
+    .cabecera__logo{
+        padding: 10px 0 5px 0;
+        align-items: center;
+        width: 80px;
+    }
+
+    /* MAIN */
+
+    /* DESCRIPCION */
+    .cuerpo__descripcion__foto{
+        width: 80%;
+        margin-top: -20px;
+    }
+
+    .cuerpo__descripcion__contenedor{
+        max-width: 95%;
+        margin: 5% 1%;
+    }
+
+    .descripcion__redes li img{
+        width: 40px;
+    }
+
+    /* EXPERIENCIA */
+    .experiencia__contenedor__img{
+        display: none;
+    }
+    
+    .experiencia__contenedor__descripcion{
+        margin-left: 0;
+        max-width: 100%;
+        padding: 1.5%;    
+        text-align: justify;
+    }
+
+    /* HABILIDADE */
+    .habilidades__galeria{
+        margin-top: 10px;
+    }
+
+    .habilidades__contenedor__img{
+        width: 100px;
+        height: auto;
+    }
+
+    /* FORMACION */
+    .cuerpo__formacion{
+        padding: 5% 0;
+    }
+
+    .formacion__contenedor{
+        width: 95%;
+    }
+
+    /* SOBRE MI */
+    .cuerpo__sobreMi{
+        padding: 5% 0;
+    }
+}
