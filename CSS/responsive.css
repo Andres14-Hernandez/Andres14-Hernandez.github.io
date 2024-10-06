@@ -40,6 +40,14 @@
         margin: 2%;
 
     }
+
+    #gota{
+        display: none;
+    }
+
+    #desenfoque{
+        display: none;
+    }
     
 }
 

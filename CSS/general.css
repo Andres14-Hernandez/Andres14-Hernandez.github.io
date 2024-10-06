@@ -12,8 +12,33 @@
     z-index: 0;
 }
 
+/* CURSOR */
+.cursor{
+  background: linear-gradient(to right, #04885a, #ab91f2);
+  width: 500px;
+  height: 500px;
+  border-radius: 50%;
+  pointer-events: none;
+  position: fixed;
+  transform: translate(-50%, -50%);
+  filter: blur(100px);
+
+}
+
+.cursor::before{
+  content: '';
+  position: absolute;
+  width: 50px;
+  height: 20px;
+  transform: translate(-30%, -30%);
+  border-radius: 50%;
+}
+
+
 body{
   background-color: #191D2D;
+  overflow-x: hidden;
+  display: flex;
 }
 
 /* FUENTES TIPOGRAFICAS */
@@ -26,9 +51,9 @@ body{
       "wdth" 100;
   }  
 
-  .oswald-text {
+.oswald-text {
     font-family: "Oswald", sans-serif;
     font-optical-sizing: auto;
     font-weight: 24px;
     font-style: normal;
-  }
+}
