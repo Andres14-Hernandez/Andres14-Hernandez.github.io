@@ -1,4 +1,4 @@
-@media screen and (max-width: 1200px){
+@media screen and (max-width: 1024px){
     /* HEADER */
     .navegacion{
         display: none;
@@ -53,6 +53,11 @@
 
 
 @media screen and (max-width: 900px){
+    /* CURSOR */
+    .cursor{
+        display: none;
+    }
+    
     /* MAIN */
     .cuerpo{
         margin-top: 120px;
