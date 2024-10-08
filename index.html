@@ -191,10 +191,10 @@
 
         <section class="contacto" id="contacto">
             <h1 class="titulo">Contacto</h1>
-            <form class="formulario" action="" autocomplete="off" method="post">
+            <form class="formulario" action="https://formsubmit.co/andres14_hl@hotmail.com" autocomplete="off" method="POST">
 
-                <label for="formulario-nombre">Nombre:</label>
-                <input type="text" id="formulario-nombre" required="true"> <br>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" required="true"> <br>
 
                 <label for="email">Correo Electronico: </label>           
                 <input type="email" id="email" name="email" required="true"> <br>
@@ -203,7 +203,7 @@
                 <input type="text" id="asunto" name="asunto" required="true" ></input> <br>
 
                 <label for="asunto">Mensaje:</label>
-                <textarea name="mensaje" id="mensaje" cols="50" rows="5"></textarea> <br>
+                <textarea id="mensaje" name="mensaje" cols="50" rows="5"></textarea> <br>
 
                 <input type="submit" value="Enviar" id="envio-formulario">
             </form>
